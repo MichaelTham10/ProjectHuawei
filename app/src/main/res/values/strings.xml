@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">ProjectHuawei</string>
     <string name="title">Tickeasy</string>
+    <string name="now_playing"> Now Playing </string>
+    <string name="trending">Trending this week</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="buy_ticket">Buy Ticket</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

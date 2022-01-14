@@ -3,8 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.14114583333333333" />
         <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/font/font.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/activity_detail.xml" value="0.264" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/cast_view_holder.xml" value="0.264" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/coming_soon_view_holder.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/fragment_home.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/fragment_search.xml" value="0.1375" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/now_playing_view_holder.xml" value="0.264" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/layout/trending_view_holder.xml" value="0.4" />
+        <entry key="..\:/Users/Mike/Desktop/Semester 5/Semester 5/Mobile Programming Code/ProjectHuawei/app/src/main/res/menu/bottom_navigation.xml" value="0.24635416666666668" />
       </map>
     </option>
   </component>
@@ -13,5 +26,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
   </component>
 </project>
