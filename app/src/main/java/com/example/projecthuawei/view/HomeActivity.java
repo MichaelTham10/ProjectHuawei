@@ -20,6 +20,9 @@ import com.example.projecthuawei.retrofit_interface.MovieInterface;
 import com.example.projecthuawei.view.main.HomeFragment;
 import com.example.projecthuawei.view.main.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.huawei.hms.ads.BannerAdSize;
+import com.huawei.hms.ads.HwAds;
+import com.huawei.hms.ads.banner.BannerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +40,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
 
         bottomNavigationView = findViewById(R.id.bottom_nav);
         homeFragment = HomeFragment.newInstance();
