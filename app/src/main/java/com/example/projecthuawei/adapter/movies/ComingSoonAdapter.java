@@ -1,6 +1,7 @@
 package com.example.projecthuawei.adapter.movies;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +13,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+
 import com.example.projecthuawei.R;
 import com.example.projecthuawei.models.movies.Result;
+import com.example.projecthuawei.view.main.DetailActivity;
 
 import java.util.List;
 
@@ -44,7 +47,15 @@ public class ComingSoonAdapter extends RecyclerView.Adapter<ComingSoonAdapter.Co
         Glide.with(context)
                 .load("https://image.tmdb.org/t/p/w185"+result.getPosterPath())
                 .into(holder.movieImage);
+        holder.movieImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.putExtra("movie_id", result.getId());
 
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

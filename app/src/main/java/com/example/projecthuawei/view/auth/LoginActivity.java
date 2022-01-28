@@ -27,7 +27,7 @@ import com.huawei.hms.support.hwid.ui.HuaweiIdAuthButton;
 public class LoginActivity extends AppCompatActivity {
 
     HuaweiIdAuthButton huaweiLoginBtn;
-    Button testBtn;
+
 
     private String TAG = "auth_test";
     private AccountAuthService mAuthService;
@@ -41,13 +41,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         huaweiLoginBtn = findViewById(R.id.huaweiLoginBtn);
-        testBtn = findViewById(R.id.testBtn);
-        testBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                silentSignInByHwId();
-            }
-        });
+
+
         huaweiLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -4,6 +4,7 @@ import com.example.projecthuawei.models.movies.Credits;
 import com.example.projecthuawei.models.movies.MovieDetail;
 import com.example.projecthuawei.models.movies.MovieVideos;
 import com.example.projecthuawei.models.movies.Responses;
+import com.example.projecthuawei.models.movies.SearchPage;
 import com.example.projecthuawei.models.movies.VideoTrailer;
 
 import retrofit2.Call;
@@ -48,6 +49,15 @@ public interface MovieInterface {
     Call<VideoTrailer> getMovieTrailer(
             @Path("movie_id") String movie_id,
             @Query("api_key") String api_key
+    );
+
+    @GET("/3/search/movie")
+    Call<SearchPage> getSearchResult(
+            @Query("api_key") String api_key,
+            @Query("language") String language,
+            @Query("query") String query,
+            @Query("page") int page,
+            @Query("include_adult") boolean include_adult
     );
 
 

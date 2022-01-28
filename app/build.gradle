@@ -8,17 +8,14 @@ android {
 
     defaultConfig {
         applicationId "com.example.projecthuawei"
-        minSdk 21
+        minSdk 24
         targetSdk 31
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-
     }
-
-
 
     buildTypes {
         release {
@@ -47,4 +44,11 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1'
+
+    implementation 'com.huawei.hms:ads-lite:13.4.51.300'
+    implementation 'com.huawei.hms:ads-consent:3.4.51.300'
+    implementation 'com.huawei.hms:ads-installreferrer:3.4.39.302'
+
+    implementation 'com.huawei.hms:awareness:3.1.0.300'
+    implementation 'com.huawei.hms:location:5.1.0.301'
 }

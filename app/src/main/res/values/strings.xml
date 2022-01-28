@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProjectHuawei</string>
+    <string name="app_name">Tickeasy</string>
     <string name="title">Tickeasy</string>
     <string name="now_playing"> Now Playing </string>
     <string name="trending">Trending this week</string>
@@ -7,4 +7,11 @@
     <string name="buy_ticket">Buy Ticket</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="description">Welcome to Tickeasy, Tickeasy is an application that help you to see your favorite movies rating and reviews in one click.
+        In this application also has search feature, where you can find your favorite movies. Thank you for you participation to choose our application.
+        For now, this application only supports to login with huawei id. You can login to the application by clicking this button below.
+    </string>
 </resources>

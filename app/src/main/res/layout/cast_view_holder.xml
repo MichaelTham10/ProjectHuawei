@@ -20,9 +20,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Name"
-        android:textColor="@color/white"
-        tools:textColor="@color/orange"
-        android:textSize="20sp" />
+        android:textColor="@color/dark_blue"
+        android:textSize="20sp"
+        tools:textColor="@color/orange" />
 
     <TextView
         android:id="@+id/tv_as"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="as"
-        android:textColor="@color/white"
+        android:textColor="@color/dark_blue"
         android:textSize="14sp"
         tools:textColor="@color/orange" />
 
@@ -40,7 +40,7 @@
         android:layout_height="58dp"
         android:gravity="center_horizontal"
         android:text="Character"
-        android:textColor="@color/white"
+        android:textColor="@color/dark_blue"
         android:textSize="16sp"
         tools:textColor="@color/orange" />
 
